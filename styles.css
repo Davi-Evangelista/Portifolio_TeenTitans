@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: black;
+    padding: 20px 0 10px 0;
+}
+
+header img {
+    width: 320px;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Área principal */
+main {
+    position: relative;
+}
+
+/* Barra roxa do menu */
+nav {
+    background: linear-gradient(90deg, #1a0a2e, #12081f);
+    padding: 40px 0;
+}
+
+/* Lista centralizada */
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Links */
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Hover efeito */
+#menu li a:hover {
+    background-color: #6a0dad;
+    color: white;
+}
+
+/* Imagem dos titãs */
+main img {
+    width: 100%;
+    display: block;
+}
+
+/* Rodapé */
+footer {
+    background-color: black;
+    padding: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
